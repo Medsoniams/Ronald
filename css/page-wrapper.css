@@ -1,0 +1,17 @@
+.page-wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+@media (min-width: 480px) {
+    .page-wrapper {
+        gap: 18px;
+    }
+}
+
+@media (min-width: 992px) {
+    .page-wrapper {
+        grid-template-columns: 0.25fr 1.25fr;
+        gap: 0;
+    }
+}

@@ -1,0 +1,41 @@
+:root {
+    font-family: 'Roboto', sans-serif;
+    --color-white: #fff;
+    --color-purple: #d561fe;
+    --color-yellow: #ffcb46
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: var(--color-purple);
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.color-yellow {
+    color: var(--color-yellow);
+}
+
+@media (min-width: 991px) {
+    .container {
+        padding: 0 30px;
+    }
+}
